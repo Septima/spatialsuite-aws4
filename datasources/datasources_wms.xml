@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<datasources>
+  <endpoint endpointtype="wms" name="spatialsuite-aws4_wms">
+    <service>http://kort.aws.dk/geoserver/aws4/wms</service>
+    <parameters>
+      <servicename />
+    </parameters>
+  </endpoint>
+  <datasource endpoint="spatialsuite-aws4_wms" name="aws4_adgangsadresser_wms">
+    <wms>
+      <layers>aws4:adgangsadresser</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+  <datasource endpoint="spatialsuite-aws4_wms" name="aws4_adresser_wms">
+    <wms>
+      <layers>aws4:adresser</layers>
+      <format>image/PNG</format>
+      <transparent>True</transparent>
+    </wms>
+  </datasource>
+</datasources>

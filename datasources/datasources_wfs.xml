@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<datasources>
+  <endpoint endpointtype="wfs" name="spatialsuite-aws4_wfs">
+    <service>http://kort.aws.dk/geoserver/aws4/wfs</service>
+    <requestencoding>xml</requestencoding>
+  </endpoint>
+  <datasource endpoint="spatialsuite-aws4_wfs" name="aws4_adgangsadresser">
+    <wfs geometrycolumn="Shape">
+      <typename>aws4:adgangsadresser</typename>
+    </wfs>
+  </datasource>
+  <datasource endpoint="spatialsuite-aws4_wfs" name="aws4_adresser">
+    <wfs geometrycolumn="Shape">
+      <typename>aws4:adresser</typename>
+    </wfs>
+  </datasource>
+</datasources>

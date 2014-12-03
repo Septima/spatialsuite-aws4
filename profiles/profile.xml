@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<profile>
+  <themegroups>
+    <themegroup displayname="spatialsuite-aws4" expanded="false" name="spatialsuite-aws4" type="checkbutton" />
+  </themegroups>
+  <themes>
+    <theme module="spatialsuite-aws4" name="theme-aws4_adgangsadresser">
+      <themeselector>
+        <group>spatialsuite-aws4</group>
+        <displayname>AWS4:ADGANGSADRESSER</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+    <theme module="spatialsuite-aws4" name="theme-aws4_adresser">
+      <themeselector>
+        <group>spatialsuite-aws4</group>
+        <displayname>AWS4:ADRESSER</displayname>
+        <selectable>true</selectable>
+        <initialstate>available</initialstate>
+      </themeselector>
+    </theme>
+  </themes>
+</profile>

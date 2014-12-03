@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentation xmlns:fo="http://www.w3.org/1999/XSL/Format">
+  <text name="aws4:adgangsadresser" plural="aws4:adgangsadresser" value="aws4:adgangsadresser" />
+    <columns>
+      <column format="heading">
+        <label>'aws4:adgangsadresser'</label>
+        <value>'aws4:adgangsadresser'</value>
+      </column>
+      <column>
+        <label>'id: '</label>
+        <value>id</value>
+        <condition>IsDefined(id)</condition>
+      </column>
+      <column>
+        <label>'status: '</label>
+        <value>status</value>
+        <condition>IsDefined(status)</condition>
+      </column>
+      <column>
+        <label>'kommunekode: '</label>
+        <value>kommunekode</value>
+        <condition>IsDefined(kommunekode)</condition>
+      </column>
+      <column>
+        <label>'vejkode: '</label>
+        <value>vejkode</value>
+        <condition>IsDefined(vejkode)</condition>
+      </column>
+      <column>
+        <label>'vejnavn: '</label>
+        <value>vejnavn</value>
+        <condition>IsDefined(vejnavn)</condition>
+      </column>
+      <column>
+        <label>'husnr: '</label>
+        <value>husnr</value>
+        <condition>IsDefined(husnr)</condition>
+      </column>
+      <column>
+        <label>'supplerendebynavn: '</label>
+        <value>supplerendebynavn</value>
+        <condition>IsDefined(supplerendebynavn)</condition>
+      </column>
+      <column>
+        <label>'postnr: '</label>
+        <value>postnr</value>
+        <condition>IsDefined(postnr)</condition>
+      </column>
+      <column>
+        <label>'postnrnavn: '</label>
+        <value>postnrnavn</value>
+        <condition>IsDefined(postnrnavn)</condition>
+      </column>
+      <column>
+        <label>'ejerlavkode: '</label>
+        <value>ejerlavkode</value>
+        <condition>IsDefined(ejerlavkode)</condition>
+      </column>
+      <column>
+        <label>'ejerlavnavn: '</label>
+        <value>ejerlavnavn</value>
+        <condition>IsDefined(ejerlavnavn)</condition>
+      </column>
+      <column>
+        <label>'matrikelnr: '</label>
+        <value>matrikelnr</value>
+        <condition>IsDefined(matrikelnr)</condition>
+      </column>
+      <column>
+        <label>'esrejendomsnr: '</label>
+        <value>esrejendomsnr</value>
+        <condition>IsDefined(esrejendomsnr)</condition>
+      </column>
+      <column>
+        <label>'oprettet: '</label>
+        <value>oprettet</value>
+        <condition>IsDefined(oprettet)</condition>
+      </column>
+      <column>
+        <label>'ikrafttr&#230;delsesdato: '</label>
+        <value>ikrafttr&#230;delsesdato</value>
+        <condition>IsDefined(ikrafttr&#230;delsesdato)</condition>
+      </column>
+      <column>
+        <label>'&#230;ndret: '</label>
+        <value>&#230;ndret</value>
+        <condition>IsDefined(&#230;ndret)</condition>
+      </column>
+      <column>
+        <label>'etrs89koordinat_&#248;st: '</label>
+        <value>etrs89koordinat_&#248;st</value>
+        <condition>IsDefined(etrs89koordinat_&#248;st)</condition>
+      </column>
+      <column>
+        <label>'etrs89koordinat_nord: '</label>
+        <value>etrs89koordinat_nord</value>
+        <condition>IsDefined(etrs89koordinat_nord)</condition>
+      </column>
+      <column>
+        <label>'n&#248;jagtighed: '</label>
+        <value>n&#248;jagtighed</value>
+        <condition>IsDefined(n&#248;jagtighed)</condition>
+      </column>
+      <column>
+        <label>'kilde: '</label>
+        <value>kilde</value>
+        <condition>IsDefined(kilde)</condition>
+      </column>
+      <column>
+        <label>'tekniskstandard: '</label>
+        <value>tekniskstandard</value>
+        <condition>IsDefined(tekniskstandard)</condition>
+      </column>
+      <column>
+        <label>'tekstretning: '</label>
+        <value>tekstretning</value>
+        <condition>IsDefined(tekstretning)</condition>
+      </column>
+      <column>
+        <label>'ddkn_m100: '</label>
+        <value>ddkn_m100</value>
+        <condition>IsDefined(ddkn_m100)</condition>
+      </column>
+      <column>
+        <label>'ddkn_km1: '</label>
+        <value>ddkn_km1</value>
+        <condition>IsDefined(ddkn_km1)</condition>
+      </column>
+      <column>
+        <label>'ddkn_km10: '</label>
+        <value>ddkn_km10</value>
+        <condition>IsDefined(ddkn_km10)</condition>
+      </column>
+      <column>
+        <label>'adressepunkt&#230;ndringsdato: '</label>
+        <value>adressepunkt&#230;ndringsdato</value>
+        <condition>IsDefined(adressepunkt&#230;ndringsdato)</condition>
+      </column>
+      <column>
+        <label>'tekstretninggrader: '</label>
+        <value>tekstretninggrader</value>
+        <condition>IsDefined(tekstretninggrader)</condition>
+      </column>
+      <column format="org-pcolid">
+        <label>if IsDefined(shape_wkt) then GeometryType(shape_wkt) else "GEOMETRY UNDEFINED" endif</label>
+        <value>pcolid</value>
+      </column>
+    </columns>
+  </presentation>

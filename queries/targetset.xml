@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<targetsets>
+  <targetset name="spatialsuite-aws4">
+    <target condition="IsDefined(seek_all_themes) or InList('theme-aws4_adgangsadresser',layers, ' ')" displayname="aws4:adgangsadresser" name="aws4:adgangsadresser" presentation="[module:spatialsuite-aws4.dir]/presentations/pres-aws4_adgangsadresser">
+      <datasource name="aws4_adgangsadresser" />
+    </target>
+    <target condition="IsDefined(seek_all_themes) or InList('theme-aws4_adresser',layers, ' ')" displayname="aws4:adresser" name="aws4:adresser" presentation="[module:spatialsuite-aws4.dir]/presentations/pres-aws4_adresser">
+      <datasource name="aws4_adresser" />
+    </target>
+  </targetset>
+</targetsets>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<datasources>
+  <include mustexist="false" nodes="/datasources/*" src="[module:spatialsuite-aws4.dir]/datasources/datasources_wfs.xml" />
+  <include mustexist="false" nodes="/datasources/*" src="[module:spatialsuite-aws4.dir]/datasources/datasources_wms.xml" />
+  <include mustexist="false" nodes="/datasources/*" src="[module:spatialsuite-aws4.dir]/datasources/datasources_pg.xml" />
+</datasources>
