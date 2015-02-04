@@ -12,7 +12,7 @@
         <condition>IsDefined(id)</condition>
       </column>
       <column>
-        <label>'status: '</label>
+        <label>'Status: '</label>
         <value>status</value>
         <condition>IsDefined(status)</condition>
       </column>
